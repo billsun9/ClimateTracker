@@ -18,4 +18,5 @@ data_florida = data_usa_not_null.loc[data_usa_not_null['State']=='Florida']
 # After 1900
 data_georgia_f = data_georgia.loc[data_georgia['dt'] > '1900-12-01']
 # %%
-import spacy
+energy_use = pd.read_csv('TotalEnergyConsumption.csv')
+l = energy_use.loc[energy_use['State']=='AK']
