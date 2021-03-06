@@ -1,0 +1,17 @@
+GlobalLandTemperaturesByState.csv
+    Global Average Land Temperature by State (celsius)
+    
+TotalEnergyConsumption.csv
+    Total energy consumption (billion Btu)
+    
+PetroleumConsumption.csv
+    All petroleum products total consumption (Thousand barrels)
+    
+NaturalGasConsumption.csv
+    Natural gas total consumption (Billion Btu)
+    
+RenewBiomass.csv, RenewHydropower.csv,  RenewSolar.csv
+    Total Consumption (Billion Btu)
+    
+CarbonEmissionsUnadjusted.csv
+    Energy Related Carbon Dioxide Emissions (Million Metric Tons)

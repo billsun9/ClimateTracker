@@ -23,5 +23,3 @@ l = energy_use.loc[energy_use['State']=='AK']
 # %%
 co2 = pd.read_csv('CarbonEmissionsUnadjusted.csv')
 biomass = pd.read_csv('RenewBiomass.csv')
-
-# petroleum measured in thousands of barrels
