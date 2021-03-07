@@ -20,7 +20,7 @@ def extract(url):
 @app.route("/") # home page
 def index():
     news = getNews("carbon emissions OR greenhouse gas OR co2 emissions", max_articles=20)
-    curArticle = news[4]
+    curArticle = news[10]
     article_obj = extract(curArticle['href'])
     return render_template('index.html', title=curArticle['title'], link=curArticle['href'],
                            summary=article_obj['summary'], keywords=', '.join(article_obj['keywords']))
