@@ -4,89 +4,207 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KEKL</title>
+    <title>Climate Change Recent News</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" 
+    integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" 
+    crossorigin="anonymous" />
+    <style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    }
+    body {
+        background-color: #f3f3f3;
+    }
+    header {
+        background: linear-gradient(90deg, #2193b0, #6dd5ed);
+        padding-top: 2.5vh;
+        padding-bottom: 2.5vh;
+        color: rgb(224, 224, 224);
+        margin-bottom: 3vh;
+        text-align: center;
+    }
+    header h1 {
+        font-weight: 700;
+        font-size: 48px;
+    }
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .article {
+        width: 80vw;
+        border: 1px solid rgb(8, 85, 8);
+        border-radius: 25px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-and-link {
+        display: flex; 
+        justify-content: center;
+        align-items: space-between;
+        width: 100%;
+        min-width: 100%;
+        font-size: 14px;
+        background: rgb(197, 255, 197);
+        border-bottom: 1px solid black;
+        border-radius: 25px 25px 0 0; 
+    }
+    .fa-leaf, a {
+        padding: 10px 15px;
+    }
+    .hide {
+        padding: 10px 15px;
+    }
+    a {
+        text-decoration: none;
+    }
+    .fa-leaf {
+        color: orange;
+        cursor: pointer;
+        transition: ease all 0.5s;
+    }
+    .fa-leaf:hover {
+        color: rgb(255, 0, 0);
+    }
+    </style>
 </head>
 <body>
-    <div>News</div>
-    <div class="article">
-        <a href={{href_1}} target="_blank">{{title_1}}</a>
-        <br>
-        <div class="hide">
-            <p>Summary: {{ sum_1 }}</p>
-            <p>Keywords: {{ keywords_1 }}</p>
+    <header>
+        <h1>
+            Climate Policy and Climate Change News
+        </h1>
+    </header>
+    <div class="wrapper">
+        <div class="article">
+            <div class="btn-and-link">
+                <a href={{href_1}} target="_blank">{{title_1}}</a>
+                <i class="fas fa-leaf"></i>
+            </div>
+            <div class="hide">
+                <p>Summary: {{ sum_1 }}</p>
+                <br>
+                <p>Keywords: {{ keywords_1 }}</p>
+            </div>
+        </div>
+        <div class="article">
+            <div class="btn-and-link">
+                <a href={{href_2}} target="_blank">{{title_2}}</a>
+                <i class="fas fa-leaf"></i>
+            </div>
+            <div class="hide">
+                <p>Summary: {{ sum_2 }}</p>
+                <br>
+                <p>Keywords: {{ keywords_2 }}</p>
+            </div>
+        </div>
+        <div class="article">
+            <div class="btn-and-link">
+                <a href={{href_3}} target="_blank">{{title_3}}</a>
+                <i class="fas fa-leaf"></i>
+            </div>
+            <div class="hide">
+                <p>Summary: {{ sum_3 }}</p>
+                <br>
+                <p>Keywords: {{ keywords_3 }}</p>
+            </div>
+        </div>
+        <div class="article">
+            <div class="btn-and-link">
+                <a href={{href_4}} target="_blank">{{title_4}}</a>
+                <i class="fas fa-leaf"></i>
+            </div>
+            <div class="hide">
+                <p>Summary: {{ sum_4 }}</p>
+                <br>
+                <p>Keywords: {{ keywords_4 }}</p>
+            </div>
+        </div>
+        <div class="article">
+            <div class="btn-and-link">
+                <a href={{href_5}} target="_blank">{{title_5}}</a>
+                <i class="fas fa-leaf"></i>
+            </div>
+            <div class="hide">
+                <p>Summary: {{ sum_5 }}</p>
+                <br>
+                <p>Keywords: {{ keywords_5 }}</p>
+            </div>
+        </div>
+        <div class="article">
+            <div class="btn-and-link">
+                <a href={{href_6}} target="_blank">{{title_6}}</a>
+                <i class="fas fa-leaf"></i>
+            </div>
+            <div class="hide">
+                <p>Summary: {{ sum_6 }}</p>
+                <br>
+                <p>Keywords: {{ keywords_6 }}</p>
+            </div>
+        </div>
+        <div class="article">
+            <div class="btn-and-link">
+                <a href={{href_7}} target="_blank">{{title_7}}</a>
+                <i class="fas fa-leaf"></i>
+            </div>
+            <div class="hide">
+                <p>Summary: {{ sum_7 }}</p>
+                <br>
+                <p>Keywords: {{ keywords_7 }}</p>
+            </div>
+        </div>
+        <div class="article">
+            <div class="btn-and-link">
+                <a href={{href_8}} target="_blank">{{title_8}}</a>
+                <i class="fas fa-leaf"></i>
+            </div>
+            <div class="hide">
+                <p>Summary: {{ sum_8 }}</p>
+                <br>
+                <p>Keywords: {{ keywords_8 }}</p>
+            </div>
+        </div>
+        <div class="article">
+            <div class="btn-and-link">
+                <a href={{href_9}} target="_blank">{{title_9}}</a>
+                <i class="fas fa-leaf"></i>
+            </div>
+            <div class="hide">
+                <p>Summary: {{ sum_9 }}</p>
+                <br>
+                <p>Keywords: {{ keywords_9 }}</p>
+            </div>
+        </div>
+        <div class="article">
+            <div class="btn-and-link">
+                <a href={{href_10}} target="_blank">{{title_10}}</a>
+                <i class="fas fa-leaf"></i>
+            </div>
+            <div class="hide">
+                <p>Summary: {{ sum_10 }}</p>
+                <br>
+                <p>Keywords: {{ keywords_10 }}</p>
+            </div>
         </div>
     </div>
-    <div class="article">
-        <a href={{href_2}} target="_blank">{{title_2}}</a>
-        <br>
-        <div class="hide">
-            <p>Summary: {{ sum_2 }}</p>
-            <p>Keywords: {{ keywords_2 }}</p>
-        </div>
-    </div>
-    <div class="article">
-        <a href={{href_3}} target="_blank">{{title_3}}</a>
-        <br>
-        <div class="hide">
-            <p>Summary: {{ sum_3 }}</p>
-            <p>Keywords: {{ keywords_3 }}</p>
-        </div>
-    </div>
-    <div class="article">
-        <a href={{href_4}} target="_blank">{{title_4}}</a>
-        <br>
-        <div class="hide">
-            <p>Summary: {{ sum_4 }}</p>
-            <p>Keywords: {{ keywords_4 }}</p>
-        </div>
-    </div>
-    <div class="article">
-        <a href={{href_5}} target="_blank">{{title_5}}</a>
-        <br>
-        <div class="hide">
-            <p>Summary: {{ sum_5 }}</p>
-            <p>Keywords: {{ keywords_5 }}</p>
-        </div>
-    </div>
-    <div class="article">
-        <a href={{href_6}} target="_blank">{{title_6}}</a>
-        <br>
-        <div class="hide">
-            <p>Summary: {{ sum_6 }}</p>
-            <p>Keywords: {{ keywords_6 }}</p>
-        </div>
-    </div>
-    <div class="article">
-        <a href={{href_7}} target="_blank">{{title_7}}</a>
-        <br>
-        <div class="hide">
-            <p>Summary: {{ sum_7 }}</p>
-            <p>Keywords: {{ keywords_7 }}</p>
-        </div>
-    </div>
-    <div class="article">
-        <a href={{href_8}} target="_blank">{{title_8}}</a>
-        <br>
-        <div class="hide">
-            <p>Summary: {{ sum_8 }}</p>
-            <p>Keywords: {{ keywords_8 }}</p>
-        </div>
-    </div>
-    <div class="article">
-        <a href={{href_9}} target="_blank">{{title_9}}</a>
-        <br>
-        <div class="hide">
-            <p>Summary: {{ sum_9 }}</p>
-            <p>Keywords: {{ keywords_9 }}</p>
-        </div>
-    </div>
-    <div class="article">
-        <a href={{href_10}} target="_blank">{{title_10}}</a>
-        <br>
-        <div class="hide">
-            <p>Summary: {{ sum_10 }}</p>
-            <p>Keywords: {{ keywords_10 }}</p>
-        </div>
-    </div>
+    <script>
+        let buttons = document.querySelectorAll('.fa-leaf');
+        buttons.forEach(button => {
+            button.addEventListener('click', e => {
+                console.log(e.target);
+            })
+        })
+    </script>
 </body>
 </html>

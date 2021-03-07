@@ -45,4 +45,4 @@ def index():
                            sum_1=sum_1, sum_2=sum_2, sum_3=sum_3, sum_4=sum_4, sum_5=sum_5, sum_6=sum_6, sum_7=sum_7, sum_8=sum_8, sum_9=sum_9, sum_10=sum_10,
                            keywords_1=', '.join(keywords_1), keywords_2=', '.join(keywords_2), keywords_3=', '.join(keywords_3), keywords_4=', '.join(keywords_4), keywords_5=', '.join(keywords_5), keywords_6=', '.join(keywords_6), keywords_7=', '.join(keywords_7), keywords_8=', '.join(keywords_8), keywords_9=', '.join(keywords_9), keywords_10=', '.join(keywords_10))
 if __name__ == '__main__':
-    app.run(debug=False)
+    app.run(debug=True)
